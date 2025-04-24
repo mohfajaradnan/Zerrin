@@ -1154,6 +1154,13 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px; /* atau bisa kamu sesuaikan sesuai kebutuhan */
+}
+
 /*------------------------------------------------------------------
   	[Text Colors]
 ------------------------------------------------------------------*/
