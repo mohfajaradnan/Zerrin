@@ -602,10 +602,10 @@ fieldset[disabled] .btn-theme {
 
 /* Navbar Logo */
 .header .logo {
-  width: 150px;
-  height: 150px;
+  width: auto;
+  height: auto;
   float: left;
-  max-height: 120px;
+  max-height: none;
   line-height: 65px;
 }
 
