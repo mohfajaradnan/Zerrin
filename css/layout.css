@@ -603,7 +603,7 @@ fieldset[disabled] .btn-theme {
 
 /* Navbar Logo */
 .header .logo {
-  width: auto;
+  width: 125px;
   height: auto;
   float: left;
   max-height: none;
