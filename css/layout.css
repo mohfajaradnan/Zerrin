@@ -522,6 +522,7 @@ fieldset[disabled] .btn-theme {
 
 /* Navbar */
 .header .navbar {
+  background-color: white; /* latar belakang putih */
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   transition-duration: 300ms;
@@ -620,7 +621,7 @@ fieldset[disabled] .btn-theme {
 
 .header .logo-img {
   display: inline-block;
-  width: 250px;
+  width: 400px;
   height: auto;
   max-width: none;
   max-height: none;
@@ -676,9 +677,11 @@ fieldset[disabled] .btn-theme {
   position: relative;
   display: block;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
   font-family: Hind, sans-serif;
-  color: #fff;
+  background: linear-gradient(45deg, #FFD700, #FFA500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   line-height: 55px;
   padding: 20px;
